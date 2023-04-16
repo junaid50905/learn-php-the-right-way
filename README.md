@@ -11,12 +11,14 @@ php stands for Hypertext Preprocessor which is a scripting language mainly used 
 ### variable an constant
 
 variable
+
 +++++++++++
 ```
 $name = "";
 ```
 
 constant
+
 ++++++++++
 constant is writen two way, with const and another is define
 
