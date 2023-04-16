@@ -10,19 +10,33 @@ php stands for Hypertext Preprocessor which is a scripting language mainly used 
 
 ### variable an constant
 
-variable
+#### variable
 
 +++++++++++
 ```
 $name = "";
 ```
 
-constant
+#### constant
 
 ++++++++++
+
 constant is writen two way, with const and another is define
 
-const
+connstant variable in php
+- constant variable are global variable
+- we can't change the constant variable value
+
+###### define(name,value,case_insensitive)
+    - Names should be in uppercase letters; name can be start with _(like: _DB)
+    - case_insensitive : true- case_insensitive false: case_sensitive(default)
+    
+    example
+    ------------
+    define("DB", "localhost");
+    echo DB;
+    
+##### const
     
     example
     -----------
