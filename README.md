@@ -72,6 +72,59 @@ echo X;
 // output: 12
 ?>
     
-
 ```
+
+
+### Data  types and type casting
+
+php is called loosly type or dynamicly typed scripting language, because there is no need to write data type with variable.
+
+##### 4 scalar types
+    - int
+    - float
+    - string
+    - bool
+##### 4 compound type
+    - array
+    - object
+    - callable
+    - iterable
+##### 2 special types
+    - resource
+    - null
+
+
+#### type casting refers to convert one data type to another. PHP supports several type casting methods, including implicit and explicit type casting.
+
+#### implicit type casting / type juggling : php engine automatically convert one data type to another, which is known as implicit type casting
+    - echo 2 + 3.4  /// 2.0 + 3.4
+    - echo "10junaid" + 10   /// 10 + 10 (because php engine first get 10 and ignore the string then add with 10)
+    - echo "junaid10" + 10   /// 0 + 10 (because php engine first get string and php take string as 0 and php does not read 10 that with junaid)
+    
+    
+#### explicit type casting is done by programmer
+
+    syntext
+    ------------
+    (data type) value
+    - echo (int / integer) 3.2111            //// 3
+    -(float / double / real) "3.323"       ////3.323
+    - (boolean / bool) 32       //// 1
+    - (string) 32.32  //"32.32"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
