@@ -235,6 +235,59 @@ age----->24
 religion----->islam
 ```
 
+## operators
+## Conditional Statements
+## loops
+## switch
+## File include
+
+| include  | require |
+| ------------- | ------------- |
+| execution of the script continues when an error occured  | execution of the script stops when an error occured   |
+| we will use this | not |
+
+once---- amra ekta file jotobar ei include_once ba require_once kori na keno, just ekbar ei file ti pabe. sobar uporer file ti beshi priority pabe.
+
+
+## function
+there are two types of function in php
+1. built-in functions ----- PHP has over 1000 built-in functions that can be called directly, from within a script, to perform a specific task.
+2. user Defined Functions
+
+we know that php is a loosely type language
+```
+<?php
+function addNumbers(int $a, int $b) {
+  return $a + $b;
+}
+echo addNumbers(5, "5 days");
+// since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+?>
+
+// this is a problem, because, function taking invalid parameter
+```
+
+we can prevent the above problem by using strict
+
+```
+<?php declare(strict_types=1); // strict requirement
+
+function addNumbers(int $a, int $b) {
+  return $a + $b;
+}
+echo addNumbers(5, "5 days");
+// since strict is enabled and "5 days" is not an integer, an error will be thrown
+?>
+
+```
+
+
+
+
+
+
+
+
 
 
 
