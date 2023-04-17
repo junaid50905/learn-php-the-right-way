@@ -119,6 +119,8 @@ php is called loosly type or dynamicly typed scripting language, because there i
 
 
 ### heredoc
+
+- Heredoc is useful when we need to include a large block of text within our code that contains variable.
     <!-- 1. the syntex of here doc -->
     ```php
     <?php
