@@ -121,6 +121,8 @@ php is called loosly type or dynamicly typed scripting language, because there i
 ### heredoc
 
 - Heredoc is useful when we need to include a large block of text within our code that contains variable.
+- we can use variable in string (example: 3)
+- Supports escape sequences and special characters within the string.
     <!-- 1. the syntex of here doc -->
     ```php
     <?php
@@ -163,8 +165,18 @@ php is called loosly type or dynamicly typed scripting language, because there i
     
     ?>
     ```
+    
+### nowdoc
+- we can't use variable in string
+- Does not support escape sequences or special characters within the string.
 
-
+```
+<?php
+echo <<<'MYCV'
+            my name is junaid
+        'MYCV'
+?>
+```
 
 
 
