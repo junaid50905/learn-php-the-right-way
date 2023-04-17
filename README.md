@@ -179,6 +179,63 @@ echo <<<'MYCV'
 ```
 
 
+## array
+### indexed array
+```
+1 
+----------
+<?php
+$arr = ['junaid', 'arman', 'hossain', 'saber'];
+foreach($arr as $item){
+    echo "name: $item <br>";
+}
+?>
+output: 
+name: junaid
+name: arman
+name: hossain
+name: saber
+```
+
+
+
+```
+2 indexed array with index number
+--------------------------------
+<?php
+$arr = ['junaid', 'arman', 'hossain', 'saber'];
+foreach($arr as $key=> $item){
+    echo "$key ------> name----> $item <br>";
+}
+?>
+output:
+0 ------> name----> junaid
+1 ------> name----> arman
+2 ------> name----> hossain
+3 ------> name----> saber
+
+```
+
+### associative array
+
+```
+<?php
+$arr = [
+    'name'=> 'junaid',
+    'age'=> '24',
+    'religion'=> 'islam',
+];
+foreach($arr as $key=> $item){
+    echo "$key----->$item <br>";
+}
+?>
+output:
+name----->junaid
+age----->24
+religion----->islam
+```
+
+
 
 
 
