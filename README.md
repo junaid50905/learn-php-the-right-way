@@ -254,7 +254,7 @@ there are two types of function in php
 1. built-in functions ----- PHP has over 1000 built-in functions that can be called directly, from within a script, to perform a specific task.
 2. user Defined Functions
 
-we know that php is a loosely type language
+##### we know that php is a loosely type language
 ```
 <?php
 function addNumbers(int $a, int $b) {
@@ -267,7 +267,7 @@ echo addNumbers(5, "5 days");
 // this is a problem, because, function taking invalid parameter
 ```
 
-we can prevent the above problem by using strict
+##### we can prevent the above problem by using strict. the strict see that is a function taking a valid parameter or not
 
 ```
 <?php declare(strict_types=1); // strict requirement
