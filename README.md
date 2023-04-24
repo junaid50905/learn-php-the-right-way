@@ -281,6 +281,116 @@ echo addNumbers(5, "5 days");
 
 ```
 
+## variable scope
+
+PHP has three different variable scopes:
+    - local
+    - global
+    - static
+
+
+#### Variable with global scope:
+A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:
+```
+<?php
+$x = 4; // global scope
+
+function myFunc(){
+    echo $x; // generate an error that is Undefined variable $x
+}
+myFunc();
+
+echo $x; // 4
+```
+if we want to access x global scope variable within function, we have to use global keyword like this:
+
+```
+<?php
+$x = 5;
+function myFunc(){
+
+    global $x;
+    echo $x; // 5
+}
+myFunc();
+
+echo $x; // 5
+
+```
+
+or we can access as parameter
+
+```
+<?php
+$x = 5;
+function myFunc($x){
+
+    echo $x; // 5
+}
+myFunc($x);
+
+echo $x; // 5
+
+
+```
+
+#### Variable with local scope:
+A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:
+
+```
+<?php
+function myFunc(){
+    $x = 10; //local scope
+
+    echo $x; // 10
+}
+myFunc();
+
+echo $x; // generate an error that is Undefined variable $x
+
+```
+
+#### static keyword
+```
+<?php
+function myFunc(){
+    static $x = 0;
+    $x++;
+    echo $x;
+}
+myFunc(); // 1
+myFunc(); // 2
+myFunc(); // 3
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
