@@ -1,4 +1,5 @@
 ## learn php the right way (22)
+<span style="color:#00FF00">This text is green</span>
 
 ## ==> what is php?
 php stands for Hypertext Preprocessor which is a scripting language mainly used in web development.
