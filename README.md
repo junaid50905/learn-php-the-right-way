@@ -381,6 +381,7 @@ Fatal errors, as their name suggests, are the ones who are capable of killing—
 
 ## ==> Error Handling and Handlers
 
+<font color="red">This text is red</font>
 
 
 
