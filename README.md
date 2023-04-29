@@ -384,4 +384,4 @@ Fatal errors, as their name suggests, are the ones who are capable of killing—
 
 ## ==> Error Handling and Handlers
 
-
+```
