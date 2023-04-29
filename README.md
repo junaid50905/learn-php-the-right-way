@@ -1,5 +1,4 @@
 ## learn php the right way (22)
-<span style="color:#00FF00">This text is green</span>
 
 ## ==> what is php?
 php stands for Hypertext Preprocessor which is a scripting language mainly used in web development.
@@ -382,7 +381,6 @@ Fatal errors, as their name suggests, are the ones who are capable of killing—
 
 ## ==> Error Handling and Handlers
 
-<font color="red">This text is red</font>
 
 
 
