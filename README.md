@@ -1,3 +1,5 @@
+```html
+<p style="color: #0000ff;">This paragraph is blue.</p>
 
 ## learn php the right way (22)
 
