@@ -1,6 +1,4 @@
 <html>
-    
-    <body>
         ## learn php the right way (22)
 
 ## ==> what is php?
@@ -401,26 +399,4 @@ Fatal errors, as their name suggests, are the ones who are capable of killing—
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
 </html>
