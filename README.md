@@ -1,4 +1,4 @@
-<html>
+
         ## learn php the right way (22)
 
 ## ==> what is php?
@@ -383,20 +383,3 @@ Fatal errors, as their name suggests, are the ones who are capable of killing—
 ## ==> Error Handling and Handlers
 
 
-
-
-
-<span style="color: #ff0000;">This text is red.</span>
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
