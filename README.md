@@ -364,6 +364,20 @@ myFunc(); // 3
 
 ```
 
+## ==> Types of errors in php
+#### * parse or syntax errors
+
+```
+<?php
+echo 'junaid'
+// Parse error: syntax error, unexpected end of file, expecting "," or ";" in C:\laragon\www\pondit\learning\index.php on line 5
+?>
+```
+
+#### * Fatal errors
+Fatal errors, as their name suggests, are the ones who are capable of killing—or crashing—the application and the application can’t go on.
+#### * Warning errors
+#### * Notice errors
 
 ## ==> Error Handling and Handlers
 
