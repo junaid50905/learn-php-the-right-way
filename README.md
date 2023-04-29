@@ -1,5 +1,5 @@
 
-        ## learn php the right way (22)
+## learn php the right way (22)
 
 ## ==> what is php?
 php stands for Hypertext Preprocessor which is a scripting language mainly used in web development.
