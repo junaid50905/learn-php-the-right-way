@@ -1,14 +1,14 @@
 ## learn php the right way (22)
 
-### what is php?
+## ==> what is php?
 php stands for Hypertext Preprocessor which is a scripting language mainly used in web development.
 
-### how does php work
+## ==> how does php work
 <img src="https://i.ibb.co/YcPcJd8/Screenshot-2023-04-17-024353.png" height="200" width="300"/>
 
-### advantages and disadvantages of php
+## ==> advantages and disadvantages of php
 
-### variable an constant
+## ==> variable an constant
 
 #### variable
 
@@ -75,7 +75,7 @@ echo X;
 ```
 
 
-### Data  types and type casting
+## ==> Data  types and type casting
 
 php is called loosly type or dynamicly typed scripting language, because there is no need to write data type with variable.
 
@@ -115,7 +115,7 @@ php is called loosly type or dynamicly typed scripting language, because there i
 
 
 
-## heredoc and nowdoc
+## ==> heredoc and nowdoc
 
 
 ### heredoc
@@ -179,7 +179,7 @@ echo <<<'MYCV'
 ```
 
 
-## array
+## ==> array
 ### indexed array
 ```
 1 
@@ -235,11 +235,11 @@ age----->24
 religion----->islam
 ```
 
-## operators
-## Conditional Statements
-## loops
-## switch
-## File include
+## ==> operators
+## ==> Conditional Statements
+## ==> loops
+## ==> switch
+## ==> File include
 
 | include  | require |
 | ------------- | ------------- |
@@ -249,7 +249,7 @@ religion----->islam
 once---- amra ekta file jotobar ei include_once ba require_once kori na keno, just ekbar ei file ti pabe. sobar uporer file ti beshi priority pabe.
 
 
-## function
+## ==> function
 there are two types of function in php
 1. built-in functions ----- PHP has over 1000 built-in functions that can be called directly, from within a script, to perform a specific task.
 2. user Defined Functions
@@ -281,7 +281,7 @@ echo addNumbers(5, "5 days");
 
 ```
 
-## variable scope
+## ==> variable scope
 
 PHP has three different variable scopes:
     - local
@@ -363,6 +363,9 @@ myFunc(); // 2
 myFunc(); // 3
 
 ```
+
+
+## ==> Error Handling and Handlers
 
 
 
